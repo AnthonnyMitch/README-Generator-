@@ -12,7 +12,7 @@ function generateMarkdown(answers) {
 
   ${answers.Technologies}
   
-  ## Table of Contents 
+  ## Table of Contents :
   
 
   
@@ -23,13 +23,17 @@ function generateMarkdown(answers) {
   
   
   ## Installation
-  ###### To install necessary dependencies, run the following command:
+   
+   To install necessary dependencies, run the following command:
+  
   ${answers.Installation}
   
   
   ## Usage 
- ###### Provide instructions and examples for use.
- ${answers.Usage}
+  
+ Instructions and examples for use.
+ 
+  ${answers.Usage}
   
   
   ## Credits
@@ -42,13 +46,11 @@ ${answers.Credits}
   
   ${answers.License}
   
-  ## Badges
+ 
   
- ${answers.Badges}
-  
-  ## Contributing
+  # Contributing:
 
-  ###### Contributor Covenant Code of Conduct
+    Contributor Covenant Code of Conduct
   Our Pledge
   We as members, contributors, and leaders pledge to make participation in our
   community a harassment-free experience for everyone, regardless of age, body
@@ -145,11 +147,13 @@ ${answers.Credits}
   https://www.contributor-covenant.org/faq. Translations are available at
   https://www.contributor-covenant.org/translations.
   
-  ## Questions:
+  # Questions:
    
-  ######For any questions about this project feel free to contact me via:
-  ## Phone: ${answers.Phone}
-  ##Email: ${answers.Email}
+  For any questions about this project feel free to contact me via:
+  
+  Phone: ${answers.Phone}
+  
+  Email: ${answers.Email}
 
 
 `;

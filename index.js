@@ -17,9 +17,12 @@ inquirer.prompt([
 },
 
 {
-    type: "input",
+    type: "checkbox",
     message: "Enter technologies used on this project",
     name:"Technologies",
+    choices:[
+        "HTML", "CSS", "JAVASCRIPT", "JQUERY","NOBE","JAVA","PYTHON","C++","OTHERS"
+    ],
 },
 
 
@@ -42,11 +45,11 @@ inquirer.prompt([
 },
 
 {
-   default: "/conda/l/:channel/:package",
+    
     message: "License MIT",
     name:"License",
+    default: "![license](https://img.shields.io/github/license/DAVFoundation/captain-n3m0.svg?style=flat-square)",
 },
-
 
 
 {
@@ -59,12 +62,16 @@ inquirer.prompt([
     message: "Enter your email for any questions about this project",
     name: "Email",
 
-}
+},
 ])
 
 .then(function(answers){
     
     const generateFile = generateMarkdown(answers)
-//. Crea la function para crear el README file fs.writeFile y estas listo papi
-console.log(generateFile);
+
+    
+    fs.writeFile("README.md", generateFile,function (err){
+        console.log(err);
+    })
+console.log("You have successfully create a README.md file");
 })
