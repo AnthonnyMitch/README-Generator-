@@ -31,7 +31,7 @@ function generateMarkdown(answers) {
   
   ## Usage 
   
- Instructions and examples for use.
+ Instructions and examples for use:
  
   ${answers.Usage}
   
@@ -151,9 +151,9 @@ ${answers.Credits}
    
   For any questions about this project feel free to contact me via:
   
-  Phone: ${answers.Phone}
+  * Phone: ${answers.Phone}
   
-  Email: ${answers.Email}
+  * Email: ${answers.Email}
 
 
 `;
