@@ -3,7 +3,7 @@
 
   ## Description:
   
-  Generate Professional README files in a mater of secons. This app allow user to generate README files for their repositories in a very essay way. By runnig this generator user will created a README file displaying a description of the project, Technologies used, installation, and much more.  
+  Generate Professional README files in a mater of seconds. This app allow user to generate README files for their repositories in a very essay way. By runnig this generator user will created a README file displaying a description of the project, Technologies used, installation, and much more.  
   
   
   ## Technologies use:
