@@ -31,7 +31,15 @@
   
  Instructions and examples for use:
  
-  Step 1: install dependencies. Step2: Run program by opening index.js in terminal. Step 3: Answer questions to generate README file.  Step4: Open the new README.md file the look at the result. Step 5: if need to modified something just go to the new README file and change things. 
+  Step 1: install dependencies. 
+  
+  Step2: Run program by opening index.js in terminal. 
+  
+  Step 3: Answer questions to generate README file.  
+  
+  Step4: Open the new README.md file the look at the result. 
+  
+  Step 5: if need to modified something just go to the new README file and change things. 
   
   
   ## Credits
