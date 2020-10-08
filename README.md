@@ -1,14 +1,14 @@
 
-  # Project Example
+ # README File Generator
 
   ## Description:
   
-  Project description example
+  Generate Professional README files in a mater of secons. This app allow user to generate README files for their repositories in a very essay way. By runnig this generator user will created a README file displaying a description of the project, Technologies used, installation, and much more.  
   
   
   ## Technologies use:
 
-  HTML,JAVASCRIPT,NOBE
+  HTML,CSS,JAVASCRIPT,NOBE
   
   ## Table of Contents :
   
@@ -24,19 +24,19 @@
    
    To install necessary dependencies, run the following command:
   
-   install npm
+  npm install
   
   
   ## Usage 
   
  Instructions and examples for use:
  
-   step 1. example step 2. example step 3. example
+  Step 1: install dependencies. Step2: Run program by opening index.js in terminal. Step 3: Answer questions to generate README file.  Step4: Open the new README.md file the look at the result. Step 5: if need to modified something just go to the new README file and change things. 
   
   
   ## Credits
   
- Anthonny Mitchell https://github.com/AnthonnyMitch
+Anthonny Mitchell  https://github.com/AnthonnyMitch
   
   
   
@@ -149,8 +149,6 @@
    
   For any questions about this project feel free to contact me via:
   
-  * Phone:  555-555-5555
+  * Phone: 407-779-0535
   
-  * Email: anthonnymitch@mailme.com
-
-
+  * Email: AnthonnyMitch22@gmail.com
